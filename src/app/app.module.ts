@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { C01Component } from './c01.component/c01.component';
 import { C02Component } from './c02.component/c02.component';
 import { C03Component } from './c03.component/c03.component';
+import { C04Component } from './c04.component/c04.component';
 @NgModule({
   declarations: [
     AppComponent,
     C01Component,
     C02Component,
-    C03Component
+    C03Component,
+    C04Component
   ],
   imports: [
     BrowserModule,
