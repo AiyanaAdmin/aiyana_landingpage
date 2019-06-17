@@ -18,7 +18,7 @@
 }
 .header-container{
   display: flex;
-  height:20vh;
+  height:30vh;
   align-items: center;
   justify-content: center;
 }
@@ -39,13 +39,10 @@ h1{
 #header-item-b{
   color:map-get($colors,accentColor);
 }
-.content-container{
-  display: flex;
-  height:80vh;
-  justify-content: center;
-  text-align: center;
-}
-#content-item{
+
+#grid-container{
+    display: flex;
+    height:70vh;
 
 }
 p{

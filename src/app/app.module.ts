@@ -8,18 +8,23 @@ import { C01Component } from './c01.component/c01.component';
 import { C02Component } from './c02.component/c02.component';
 import { C03Component } from './c03.component/c03.component';
 import { C04Component } from './c04.component/c04.component';
+import { GridBoxComponent } from './c04.component/elements/grid-box.component/grid-box.component';
+import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     AppComponent,
     C01Component,
     C02Component,
     C03Component,
-    C04Component
+    C04Component,
+    GridBoxComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatCardModule
     
   ],
   providers: [],

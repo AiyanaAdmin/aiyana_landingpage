@@ -1,0 +1,68 @@
+/**
+*  Document:  grid-box.component.scss
+*
+*  Author:    andreas.benz.development@outlook.de
+*
+*  Owner:     andreas.benz.development@outlook.de
+*
+*  History:
+*
+*  06.05.19 initial build
+*/
+@import "../../../../variables.scss";
+
+.item-container {
+  display:flex;
+  padding: 20px;
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+}
+h4 {
+  color: white;
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+  font-weight: 300;
+  color: map-get($colors, primaryColor);
+}
+p {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .component-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .component-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .component-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .component-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+  }
+}
