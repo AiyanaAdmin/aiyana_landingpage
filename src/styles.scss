@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+*  Document:  style.scss
+*
+*  Author:    andreas.benz.development@outlook.de
+*
+*  Owner:     andreas.benz.development@outlook.de
+*
+*  History:
+*
+*  02.05.19 initial build
+*/
+@import "./variables.scss";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body {
+  margin:0;
+  background:map-get($colors,backgroundColor);
+  }
+html{
+  margin:0;
+  font-size:16px;
+  font-family: 'Roboto', sans-serif;
+  color:map-get($colors,fontColor);
+  }
+
+h1 {
+
+  font-size: 2.5rem;
+  line-height: 2.8125rem;
+  font-weight: 300;
+  margin:0;
+  color:map-get($colors,primaryColor);
+}
+
+h2{
+  font-size: 1.875rem;
+  line-height: 2.1875rem;
+  font-weight: 300;
+  color:map-get($colors,primaryColor);
+}
+h4{
+  color:map-get($colors,primaryColor);
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+  font-weight: 300;
+}
+
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+
+p{
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+

@@ -1,0 +1,53 @@
+/**
+*  Document:  c01.component.scss
+*
+*  Author:    andreas.benz.development@outlook.de
+*
+*  Owner:     andreas.benz.development@outlook.de
+*
+*  History:
+*
+*  03.05.19 initial build
+*/
+@import "../../variables.scss";
+
+.c01-container{
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+
+}
+.title-container{
+  display: flex;
+  padding:20px;
+  height:60vh;
+  align-items: flex-end;
+  justify-content: center;
+  
+}
+.title-item{
+  display:flex;
+  flex-direction: row;
+  font-style: normal !important;
+  font-weight: 200 !important;
+  font-size: 72px !important;
+}
+h1{
+  font-style: normal !important;
+  font-weight: 200 !important;
+  font-size: 72px !important;
+}
+#title-item-a{
+  color:map-get($colors,primaryColor);
+
+}
+#title-item-b{
+  color:map-get($colors,accentColor);
+}
+.description-container{
+  display: flex;
+  padding:20px;
+  height:40vh;
+  align-items: flex-start;
+  justify-content: center;
+}
