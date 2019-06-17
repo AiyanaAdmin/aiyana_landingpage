@@ -15,6 +15,7 @@
   height: 100vh;
   display:flex;
   flex-direction: column;
+  justify-content: center;
 
 }
 .title-container{
@@ -50,4 +51,14 @@ h1{
   height:40vh;
   align-items: flex-start;
   justify-content: center;
+  text-align: center;
+}
+#description-item{
+  width: 80vw;
+}
+p{
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
 }
