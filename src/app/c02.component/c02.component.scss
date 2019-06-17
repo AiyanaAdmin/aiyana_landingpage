@@ -1,5 +1,5 @@
 /**
-*  Document:  c01.component.scss
+*  Document:  c02.component.scss
 *
 *  Author:    andreas.benz.development@outlook.de
 *
@@ -7,52 +7,46 @@
 *
 *  History:
 *
-*  03.05.19 initial build
+*  17.06.19 initial build
 */
 @import "../../variables.scss";
 
-.c01-container{
+.c02-container{
   height: 100vh;
   display:flex;
-  flex-direction: column;
-  justify-content: center;
-
-}
-.title-container{
-  display: flex;
-  padding:20px;
-  height:60vh;
-  align-items: flex-end;
-  justify-content: center;
-  
-}
-.title-item{
-  display:flex;
   flex-direction: row;
+}
+.header-container{
+  display: flex;
+  width:40vw;
+  align-items: center;
+  justify-content: center;
+}
+.header-item{
+    display:flex;
+    flex-direction: row;
+}
 
-}
 h1{
-  font-style: normal;
-  font-weight: 200;
-  font-size: 72px;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 56px;
 }
-#title-item-a{
+#header-item-a{
   color:map-get($colors,primaryColor);
 
 }
-#title-item-b{
+#header-item-b{
   color:map-get($colors,accentColor);
 }
-.description-container{
+.content-container{
   display: flex;
-  padding:20px;
-  height:40vh;
-  align-items: flex-start;
+  width:60vw;
   justify-content: center;
   text-align: center;
 }
-#description-item{
-  width: 80vw;
+#content-item{
+
 }
 p{
   font-style: normal;

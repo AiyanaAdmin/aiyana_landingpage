@@ -5,10 +5,12 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { C01Component } from './c01.component/c01.component';
+import { C02Component } from './c02.component/c02.component';
 @NgModule({
   declarations: [
     AppComponent,
-    C01Component
+    C01Component,
+    C02Component
   ],
   imports: [
     BrowserModule,
