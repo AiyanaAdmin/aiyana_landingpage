@@ -14,6 +14,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { C05Component } from './c05.component/c05.component';
 import { TimelineItemComponent } from './c05.component/elements/timeline-item.component/timeline-item.component';
+import { C06Component } from './c06.component/c06.component';
+import { SupportListComponent } from './c06.component/elements/support-list.component/support-list.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,9 @@ import { TimelineItemComponent } from './c05.component/elements/timeline-item.co
     C04Component,
     GridBoxComponent,
     C05Component,
-    TimelineItemComponent
+    TimelineItemComponent,
+    C06Component,
+    SupportListComponent
 
   ],
   imports: [
