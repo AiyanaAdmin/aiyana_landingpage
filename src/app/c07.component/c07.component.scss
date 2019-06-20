@@ -1,0 +1,57 @@
+/**
+*  Document:  c07.component.scss
+*
+*  Author:    andreas.benz.development@outlook.de
+*
+*  Owner:     andreas.benz.development@outlook.de
+*
+*  History:
+*
+*  17.06.19 initial build
+*/
+@import "../../variables.scss";
+
+.c07-container{
+  height: 100vh;
+  display:flex;
+  flex-direction: row;
+}
+.header-container{
+  display: flex;
+  width:40vw;
+  align-items: center;
+  justify-content: center;
+}
+.header-item{
+    display:flex;
+    flex-direction: row;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 56px;
+}
+#header-item-a{
+  color:map-get($colors,primaryColor);
+
+}
+.header-item-b{
+  color:map-get($colors,accentColor);
+  margin-right: 10px;
+}
+.content-container{
+  display: flex;
+  width:60vw;
+  justify-content: center;
+  text-align: center;
+}
+#content-item{
+
+}
+p{
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+}

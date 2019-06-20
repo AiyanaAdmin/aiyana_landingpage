@@ -16,6 +16,7 @@ import { C05Component } from './c05.component/c05.component';
 import { TimelineItemComponent } from './c05.component/elements/timeline-item.component/timeline-item.component';
 import { C06Component } from './c06.component/c06.component';
 import { SupportListComponent } from './c06.component/elements/support-list.component/support-list.component';
+import { C07Component } from './c07.component/c07.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import { SupportListComponent } from './c06.component/elements/support-list.comp
     C05Component,
     TimelineItemComponent,
     C06Component,
-    SupportListComponent
+    SupportListComponent,
+    C07Component
 
   ],
   imports: [
