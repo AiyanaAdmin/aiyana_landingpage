@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TOPICS } from "../../../mocks/topics";
-import {MatCardModule} from '@angular/material/card';
+
 @Component({
   selector: 'app-grid-box',
   templateUrl: './grid-box.component.html',
