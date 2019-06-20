@@ -1,5 +1,5 @@
 /**
-*  Document:  c04.component.scss
+*  Document:  c05.component.scss
 *
 *  Author:    andreas.benz.development@outlook.de
 *
@@ -7,12 +7,12 @@
 *
 *  History:
 *
-*  17.06.19 initial build
+*  20.06.19 initial build
 */
 @import "../../variables.scss";
 
-.c04-container{
-  min-height: 100vh;
+.c05-container{
+  height: 100vh;
   display:flex;
   flex-direction: column;
 }
@@ -40,14 +40,23 @@ h1{
   color:map-get($colors,accentColor);
 }
 
-#grid-container{
+.description-container{
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+  }
+  #description-item{
+    width: 80vw;
+  }
+  p{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    margin:0;
+  }
+  #timeline-container{
+  
 
-
-}
-p{
-  font-style: normal;
-  font-weight: 200;
-  font-size: 22px;
-  line-height: 26px;
-}
+  }

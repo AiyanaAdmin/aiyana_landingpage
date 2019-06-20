@@ -1,0 +1,49 @@
+<!--
+*  Document:  timeline-item.component.component.html
+*
+*  Author:    andreas.benz.development@outlook.de
+*
+*  Owner:     andreas.benz.development@outlook.de
+*
+*  History:
+*
+*  20.06.19 initial build
+-->
+<div class="timeline-item-container">
+    <div [class]="target.direction" *ngFor="let target of targets">
+
+        <div id="timeline-item-date">
+            <h3>{{target.date}}</h3>
+        </div>
+
+        <div id="timeline-item-divider">
+            <hr>
+
+        </div>
+
+        <div id="timeline-item-card">
+            <mat-card class="item-card">
+
+                <mat-card-header>
+                    <div mat-card-avatar class="example-header-image"></div>
+                    <mat-card-title>{{target.title}}</mat-card-title>
+                    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                    alt="Photo of a Shiba Inu">
+                <mat-card-content>
+                    {{target.content}}
+                </mat-card-content>
+
+                <mat-card-actions>
+                    <button mat-button>Learn more</button>
+                    <button mat-button routerLink=".">Share</button>
+                </mat-card-actions>
+
+            </mat-card>
+        </div>
+
+
+
+    </div>
+</div>

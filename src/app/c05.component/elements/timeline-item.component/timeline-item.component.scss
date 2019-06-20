@@ -1,0 +1,67 @@
+/**
+*  Document:  timeline-item.component.scss
+*
+*  Author:    andreas.benz.development@outlook.de
+*
+*  Owner:     andreas.benz.development@outlook.de
+*
+*  History:
+*
+*  20.06.19 initial build
+*/
+@import "../../../../variables.scss";
+
+.timeline-item-container {
+  display: flex;
+  flex-direction: column;
+}
+.timeline-item-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:3rem;
+}
+.timeline-item-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.item-card{
+  max-width: 400px;
+}
+#timeline-item-date {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#timeline-item-divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin:10px;
+}
+hr {
+  width:40px;
+  color:map-get($colors,accentColor);
+  
+}
+
+h3 {
+  color: map-get($colors, primaryColor);
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 42px;
+}
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+mat-card-title {
+  
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+  font-weight: 350;
+  color: map-get($colors, primaryColor);
+}

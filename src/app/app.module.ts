@@ -12,6 +12,8 @@ import { GridBoxComponent } from './c04.component/elements/grid-box.component/gr
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { C05Component } from './c05.component/c05.component';
+import { TimelineItemComponent } from './c05.component/elements/timeline-item.component/timeline-item.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,9 @@ import { MatIconModule } from '@angular/material/icon';
     C02Component,
     C03Component,
     C04Component,
-    GridBoxComponent
+    GridBoxComponent,
+    C05Component,
+    TimelineItemComponent
 
   ],
   imports: [
